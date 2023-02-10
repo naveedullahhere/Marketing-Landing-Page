@@ -87,7 +87,9 @@ const Homemain = () => {
                 starting for Rs 5000 per Month.
               </h1>
               <p className={styles.para}>
-                starting for Rs 5000 per Month.
+                Custom made responsive website with Free hosting
+
+                and domain connections.
               </p>
             </div>
             <div className="col-6 my-md-auto my-3">
@@ -108,8 +110,19 @@ const Homemain = () => {
                 rent or lease a website :
               </h1>
               <p className={styles.para}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora pariatur mollitia in laboriosam, odit ad ipsum nulla delectus nemo, neque illum minima facere amet, explicabo unde soluta quisquam cumque! Facere obcaecati nobis reiciendis quaerat molestiae ipsam totam deserunt, dolor debitis explicabo consectetur cupiditate? Ut repudiandae consequatur doloremque eveniet earum itaque, veniam distinctio cumque assumenda quaerat nulla nesciunt harum molestiae ipsum laudantium quos obcaecati?
-              </p>
+                Covid 19 has dramatically changed our lives. Many small
+                companies struggle to survive. In this context, it is very challenging
+                to invest ad lump sum on a website. We are offering a website rental
+                service to help such entrepreneurs. A website can be rented now.
+                Gain a functional website from only Rs 5000 per month. Our offer
+                includes a hand-made professional responsive website, web
+                hosting, business email, conversion rate optimization and monthly
+
+                updates. You do what you do the best and let us manage your web
+
+
+
+                presence. </p>
             </div>
           </div>
         </div>
@@ -119,20 +132,25 @@ const Homemain = () => {
           <div className="row">
             <div className="col-md-8 mx-auto text-center">
               <h1 className={styles.heading}>
-                what is a website leasing or website renting?
+                WHAT IS A WEBSITE LEASING
+                OR WEBSITE RENTING?
               </h1>
             </div>
             <div className="col-12">
               <p className={`my-3 ${styles.para}`}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora pariatur mollitia in laboriosam, odit ad ipsum nulla delectus nemo, neque illum minima facere amet, explicabo unde soluta quisquam cumque! Facere obcaecati nobis reiciendis quaerat molestiae ipsam totam deserunt, dolor debitis explicabo consectetur cupiditate? Ut repudiandae consequatur doloremque eveniet earum itaque, veniam distinctio cumque assumenda quaerat nulla nesciunt harum molestiae ipsum laudantium quos obcaecati?
+                Small or new businesses often struggle to pay 5 to 7 lacs to build their new website and not have surplus money
+                to promote them. Development of a website can be time-consuming and costly affairs. Website maintenance,
+                server costs, and designing costs can often get out of control. Moreover, to keep web-site current, constant
+                tweaking and upgrading adds more time and cost.
+
               </p>
               <p className={`my-4 ${styles.para}`}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
+                So, there is a better way to handle this — renting or leasing a website!               </p>
               <p className={`${styles.para} text-main`}>
                 <i>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora pariatur mollitia in laboriosam, odit ad ipsum nulla delectus nemo, neque illum minima facere amet, explicabo unde soluta quisquam cumque! Facere obcaecati nobis reiciendis quaerat molestiae ipsam totam deserunt, dolor debitis explicabo consectetur cupiditate? Ut repudiandae consequatur doloremque eveniet earum itaque, veniam distinctio cumque assumenda quaerat nulla nesciunt harum molestiae ipsum laudantium quos obcaecati?
-                </i>
+                  According to Wikipedia "Website leasing is an agreement between the user (lessee) and the owner (lessor)
+                  whereby the privilege of using a website is offered in exchange for regular payments. Website Rental is a similar concept, however, often does not always require a fixed agreement.
+                  The idea of website leasing or Rental is for a user to have a website promoting their products or services but not have any overall ownership of the site (in some cases the Domain name can be owned by the lessee or renter). Generally, the website owner will charge a monthly or annual fee for this service.”                </i>
               </p>
             </div>
           </div>
@@ -143,17 +161,17 @@ const Homemain = () => {
           <div className="row">
             <div className="col-md-12 text-center">
               <h1 className={styles.heading}>
-                step for our website rental
+                STEP FOR OUR WEBSITE RENTAL
               </h1>
             </div>
             <div className={`col-lg-3 col-sm-6 col-12 my-3 ${styles['rental-steps']}`}>
               <motion.div
-                className="card-container"
+                className="card-container h-100"
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.8 }}
               >
-                <motion.div variants={cardVariants0} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }} >
+                <motion.div variants={cardVariants0} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }} className="h-100" >
 
 
                   <div className={styles['web-rental-step']}>
@@ -164,8 +182,7 @@ const Homemain = () => {
                       Step 1. Analyze
                     </p>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint magni accusantium sed. Labore doloribus saepe voluptate numquam hic reiciendis corrupti iste, quam in.
-                    </p>
+                      In order to know your business and necessity, we will send you a questionnaire. This consultation is 100% FREE.                    </p>
                   </div>
 
 
@@ -174,43 +191,42 @@ const Homemain = () => {
             </div>
             <div className={`col-lg-3 col-sm-6 col-12 my-3 ${styles['rental-steps']}`}>
               <motion.div
-                className="card-container"
+                className="card-container h-100"
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.8 }}
               >
-                <motion.div variants={cardVariants1} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }}>
+                <motion.div variants={cardVariants1} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }} className="h-100" >
                   <div className={styles['web-rental-step']}>
                     <div>
                       <Image src={Step2} style={{ width: '122px', height: '100%', objectFit: 'contain' }} />
                     </div>
                     <p className="my-3">
-                      Step 2. Analyze
+                      Step 2. Strategize
                     </p>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint magni accusantium sed. Labore doloribus saepe voluptate numquam hic reiciendis corrupti iste, quam in.
-                    </p>
+                      After understanding your requirements, we will propose a monthly rental fee. You then have to sign an agreement with us.              </p>
                   </div>
                 </motion.div>
               </motion.div>
             </div>
             <div className={`col-lg-3 col-sm-6 col-12 my-3 ${styles['rental-steps']}`}>
               <motion.div
-                className="card-container"
+                className="card-container h-100"
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.8 }}
               >
-                <motion.div variants={cardVariants2} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }}>
+                <motion.div variants={cardVariants2} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }} className="h-100" >
                   <div className={styles['web-rental-step']}>
                     <div>
                       <Image src={Step3} style={{ width: '122px', height: '100%', objectFit: 'contain' }} />
                     </div>
                     <p className="my-3">
-                      Step 3. Analyze
+                      Step 3. Implement
                     </p>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint magni accusantium sed. Labore doloribus saepe voluptate numquam hic reiciendis corrupti iste, quam in.
+                      Once we agree, your website will be hosted online by our professional team within a week.
                     </p>
                   </div>
                 </motion.div>
@@ -218,21 +234,21 @@ const Homemain = () => {
             </div>
             <div className={`col-lg-3 col-sm-6 col-12 my-3 ${styles['rental-steps']}`}>
               <motion.div
-                className="card-container"
+                className="card-container h-100"
                 initial="offscreen"
                 whileInView="onscreen"
                 viewport={{ once: true, amount: 0.8 }}
               >
-                <motion.div variants={cardVariants3} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }}>
+                <motion.div variants={cardVariants3} whileHover={{ scale: 1.02 }} whileTap={{ scale: 1 }} className="h-100" >
                   <div className={styles['web-rental-step']}>
                     <div>
                       <Image src={Step4} style={{ width: '122px', height: '100%', objectFit: 'contain' }} />
                     </div>
                     <p className="my-3">
-                      Step 4. Analyze
+                      Step 4. Make Live
                     </p>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint magni accusantium sed. Labore doloribus saepe voluptate numquam hic reiciendis corrupti iste, quam in.
+                      You can start earning money now with your own website. You only have to pay a monthly or annual rental fee for us.
                     </p>
                   </div>
                 </motion.div>
@@ -247,16 +263,28 @@ const Homemain = () => {
           <div className="row">
             <div className="col-md-7 my-md-auto my-3">
               <h1 className={styles.heading}>
-                you will recieve eleven items from your rental website:
+                YOU WILL RECEIVE ELEVEN ITEMS
+                FROM YOUR RENTAL WEBSITE:
               </h1>
               <ul className='ps-0 mt-md-1 mt-3'>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
-                <li className='ms-3'><p className='mb-0'><b>100% Custom website design: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>100% custom website designed </b>exclusive for your business—website architecture,
+                  design, logo, image and content, to your complete satisfaction.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>No big cash deposit up front, </b> just low pre-agreed monthly payments—your
+                  website pays for itself!</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Professional guidance  </b>as you assemble and create the content for your site.</p></li>
+                <li className='ms-3'><p className='mb-0'><b> Choose a conventional site, </b> a blog, or a site-plus-blog.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Free web site hosting  </b> is included in your monthly rental fee.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Social media integration </b> your visitors can share your site via Facebook, Twitter,
+                  Linkedin, etc.... and follow your social profiles too, just by clicking a button.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Mailing list integration. </b> We hook up web email signup forms for all the major
+                  mailing list managers—Aweber, MailChimp, Constant Contact, or whatever one you
+                  choose (you pay any ongoing fees charged by a list manager service).</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Analytics included, </b>so you can track your site visitors and how they find your site.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Free Google sitemap  </b>that helps get your site found more quickly by automatically
+                  letting Google know any time you add a page or a blog post to your site.</p></li>
+                <li className='ms-3'><p className='mb-0'><b>Basic-SEO </b> — your entire site with all of the hidden custom tags that help your site
+                  attract visitors more quickly.</p></li>
+                <li className='ms-3'><p className='mb-0'><b> Code based platform </b>— the open source platform that makes editing your site as typing in Word.</p></li>
               </ul>
             </div>
             <div className="col-md-5 my-md-auto my-3">
