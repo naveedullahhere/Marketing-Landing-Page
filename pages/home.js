@@ -10,8 +10,9 @@ import Image from 'next/image';
 import Contact from '@/Components/contact';
 import Link from 'next/link';
 import { motion, Variants } from "framer-motion";
+import Head from 'next/head';
 
-const Homemain = () => {
+const Homemain = ({ title, description }) => {
 
 
   const cardVariants0 = {
@@ -76,6 +77,11 @@ const Homemain = () => {
 
   return (
     <>
+
+      <Head>
+        <title>{title}</title>
+        <meta description={description} name="description" />
+      </Head>
       <div className={`${styles.sec} bg-secondary text-white`}>
         <div className="container">
           <div className="row">
@@ -105,9 +111,9 @@ const Homemain = () => {
             <div className="col-sm-4 my-md-auto my-3">
               <Image src={Sec2} style={{ width: '100%', height: '100%', objectFit: 'contain' }} className='p-sm-1 p-4' />
             </div>
-            <div className="col-sm-8 my-md-auto my-3 text-end">
+            <div className="col-sm-8 my-md-auto my-3 text-md-end text-center">
               <h1 className={styles.heading}>
-                rent or lease a website :
+                rent or lease a website
               </h1>
               <p className={styles.para}>
                 Covid 19 has dramatically changed our lives. Many small
@@ -320,3 +326,12 @@ const Homemain = () => {
 }
 
 export default Homemain
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: "Home",
+      description: "Marketing Chapter | Home"
+    }
+  }
+}

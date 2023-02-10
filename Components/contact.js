@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
-const Contact = () => {
+import Head from 'next/head';
+const Contact = ({ title, description }) => {
 
     const [isLoading, setIsLoading] = useState(false)
 
@@ -11,6 +12,10 @@ const Contact = () => {
 
     return (
         <>
+            <Head>
+                <title>{title}</title>
+                <meta description={description} name="description" />
+            </Head>
             <Form
                 initialValues={{ remember: false }}
                 onFinish={onFinish}
@@ -23,11 +28,8 @@ const Contact = () => {
                 >
                     <Input placeholder="Your Name" style={{ background: 'transparent', color: 'white' }} />
                 </Form.Item>
-                <Form.Item
-                    name="email"
-                    rules={[{ required: true, message: 'Please input your Email!' }]}
-                >
-                    <Input 
+                <Form.Item name="email" rules={[{ required: true, message: 'Please input your Email!' }]}>
+                    <Input
                         type="email"
                         placeholder="Your Email" style={{ background: 'transparent', color: 'white' }}
                     />
@@ -46,3 +48,12 @@ const Contact = () => {
 }
 
 export default Contact
+
+export async function getStaticProps() {
+    return {
+        props: {
+            title: "Contact",
+            description: "Marketing Chapter | Contact"
+        }
+    }
+}
