@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       <link href="/css/flaticon.css" rel="stylesheet" />
       <script src="https://js.pusher.com/7.2/pusher.min.js"></script>
       <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
-      <script src="https://apis.google.com/js/api:client.js"></script> 
+      <script src="https://apis.google.com/js/api:client.js"></script>
     </Head>
     <ConfigProvider
       theme={{
@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
         }
       }}
     >
-      <ScrollerMotion>
+      <ScrollerMotion scale={1.45}  >
         <Header />
         <Component {...pageProps} />
         <Footer />

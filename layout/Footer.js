@@ -71,7 +71,7 @@ export const Footer = () => {
                                             }
                                         </button>
 
-                                        <Link className="btn btn-main w-100 bg-main-light mt-2" href="https://marketingchapter.com.pk/">VISIT MARKETING CHAPTER</Link>
+                                        <Link className="btn btn-main w-100 bg-main-light mt-2" target={'_blank'} href="https://marketingchapter.com.pk/">VISIT MARKETING CHAPTER</Link>
 
 
                                     </form>

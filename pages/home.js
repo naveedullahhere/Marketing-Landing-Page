@@ -122,12 +122,8 @@ const Homemain = ({ title, description }) => {
                 service to help such entrepreneurs. A website can be rented now.
                 Gain a functional website from only Rs 5000 per month. Our offer
                 includes a hand-made professional responsive website, web
-                hosting, business email, conversion rate optimization and monthly
-
-                updates. You do what you do the best and let us manage your web
-
-
-
+                hosting, business email, conversion rate optimization and monthly 
+                updates. You do what you do the best and let us manage your web 
                 presence. </p>
             </div>
           </div>

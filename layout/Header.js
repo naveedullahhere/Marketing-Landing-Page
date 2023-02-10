@@ -16,15 +16,15 @@ const Header = () => {
                         <div className="col-12">
                             <nav className="navbar navbar-expand-md navbar-light justify-content-between">
                                 <Link href="/" className="navbar-brand me-lg-5">
-                                    <Image src={Logo} className="blogo" width={148} height={78}/>
+                                    <Image src={Logo} className="blogo" width={148} height={78} />
                                     {/* <img src={Logo} alt="Discount Space" className='blogo' width="90" /> */}
                                 </Link>
 
 
                                 <div className='w-50 text-end'>
-                                    <Link href={'#contact'} className="btn btn-main bg-main text-uppercase w-auto">
+                                    <a href='#contact' className="btn btn-main bg-main text-uppercase w-auto">
                                         GET A proposal
-                                    </Link>
+                                    </a>
                                 </div>
                             </nav>
                         </div>
